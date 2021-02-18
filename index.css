@@ -1,0 +1,31 @@
+.wrapper {
+    height: 100vh;
+    background-image: url("./Football.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.clip-path{
+    clip-path: polygon(0% 0%, 39% 0%, 40% 13%, 41% 28%, 42% 38%, 44% 48%, 47% 56%, 51% 65%, 57% 75%, 62% 84%, 67% 93%, 72% 100%, 0% 100%);
+    background-color:rgb(167, 170, 159);
+    opacity: 0.4;
+    width: 1920px;
+    height: 1080px;
+    float: left;
+    shape-outside: polygon(0% 0%, 39% 0%, 40% 13%, 41% 28%, 42% 38%, 44% 48%, 47% 56%, 51% 65%, 57% 75%, 62% 84%, 67% 93%, 72% 100%, 0% 100%);
+}
+.wrapper__content {
+    width: 900px;
+    padding-top: 50px;
+}
+.wrapper__title{
+    font-size: 70px;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.wrapper__text {
+    font-size: 30px;
+    color: aliceblue;
+    line-height: 1.5;
+    text-indent: 40px;
+    margin-bottom: 20px;
+}
