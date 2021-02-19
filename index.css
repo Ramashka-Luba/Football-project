@@ -5,17 +5,17 @@
     background-size: cover;
 }
 .clip-path{
-    clip-path: polygon(0% 0%, 39% 0%, 40% 13%, 41% 28%, 42% 38%, 44% 48%, 47% 56%, 51% 65%, 57% 75%, 62% 84%, 67% 93%, 72% 100%, 0% 100%);
+    clip-path: polygon(60% 0, 53% 52%, 100% 100%, 0 100%, 0 0);
     background-color:rgb(167, 170, 159);
     opacity: 0.4;
-    width: 1920px;
-    height: 1080px;
+    width: 77%;
+    height: 100vh;
     float: left;
-    shape-outside: polygon(0% 0%, 39% 0%, 40% 13%, 41% 28%, 42% 38%, 44% 48%, 47% 56%, 51% 65%, 57% 75%, 62% 84%, 67% 93%, 72% 100%, 0% 100%);
+    shape-outside: polygon(60% 0, 53% 52%, 100% 100%, 0 100%, 0 0);
 }
 .wrapper__content {
-    width: 900px;
-    padding-top: 50px;
+    padding-top: 8%;
+    padding-right: 10%;
 }
 .wrapper__title{
     font-size: 70px;
